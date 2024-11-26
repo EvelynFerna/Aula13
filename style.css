@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: rgb(255, 255, 255);
+}
+
+header{
+    background: rgb(230, 131, 180);
+    padding: 1.2vw;
+
+    & .container{
+        color: white;
+        font-size: 1vw;
+        font-family: 'Courier New', Courier, monospace;
+        text-align: center;
+    }
+}
+
+main{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    & .container2{
+        padding: 5vw;
+        border: 1px solid rgb(146, 229, 235);
+        width: 11vw;
+        margin-top: 5vw;
+        border-radius: 0.5;
+        box-shadow: 1px 1px 1px 1px rgb(121, 218, 248);
+
+        & h1{
+            font-size: 1.5vw;
+            font-family: 'Courier New', Courier, monospace;
+        }
+
+        & input{
+            width: 10vw;
+            padding: 0.5;
+            border-radius: 0.5vw;
+            border: none;
+            margin-top: 1vw;
+        }
+
+        & button{
+            width: 11;
+            padding: 0.5vw;
+            margin-top: 1vw;
+            background: rgb(113, 172, 248);
+            border: none;
+            border-radius: 0.5vw;
+            font-size: 0.8vw;
+            font-family: 'Courier New', Courier, monospace;
+        }
+
+        & button:hover{
+            width: 11;
+            padding: 0.5vw;
+            margin-top: 1vw;
+            background: rgb(221, 124, 184);
+            color: white;
+            cursor: pointer;
+            border: none;
+            border-radius: 0.5vw;
+            font-size: 0.8vw;
+            font-family: 'Courier New', Courier, monospace;
+    }
+  }
+}
+
+#resultado h1{
+    font-size: 1vw;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 1vw;
+}
